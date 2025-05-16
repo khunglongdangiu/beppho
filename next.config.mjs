@@ -7,8 +7,11 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   images: {
-    unoptimized: true,
+    unoptimized: true, // Disable optimization if needed
   },
-}
+  output: 'export', // Export static site (required for GitHub Pages)
+  basePath: '/beppho', // Base path for routing (GitHub Pages requires this)
+  assetPrefix: '/beppho/', // Ensure assets are correctly served from GitHub Pages subfolder
+};
 
-export default nextConfig
+export default nextConfig;
