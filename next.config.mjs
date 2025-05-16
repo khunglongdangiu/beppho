@@ -9,7 +9,7 @@ const nextConfig = {
   images: {
     unoptimized: true, // Disable image optimization if necessary
     loader: 'default', // Default loader
-    path: '/', // Use relative paths for images
+    path: '', // Use relative paths for images
   },
   output: 'export', // Generate a static site (required for GitHub Pages)
   basePath: '/beppho', // Add the base path for GitHub Pages
