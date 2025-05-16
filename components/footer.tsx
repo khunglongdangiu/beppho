@@ -120,7 +120,7 @@ export function Footer() {
                 className="h-10 w-10 flex items-center justify-center rounded-full border border-primary text-primary hover:bg-primary hover:text-white transition-colors"
                 >
                   <Image
-                    src="/tripadvisor.svg"
+                    src="tripadvisor.svg"
                     alt="TripAdvisor"
                     width={18}
                     height={18}
@@ -136,7 +136,7 @@ export function Footer() {
                       <Image src="/contactlesspayment.svg" alt="Apple Pay" width={28} height={20} />
                   </div>
                   <div className="h-8 w-12 bg-white rounded flex items-center justify-center shadow-sm">
-                    <Image src="/visa.svg" alt="Visa" width={28} height={20} />
+                    <Image src="visa.svg" alt="Visa" width={28} height={20} />
                   </div>
                   <div className="h-8 w-12 bg-white rounded flex items-center justify-center shadow-sm">
                     <svg xmlns="http://www.w3.org/2000/svg" width="28" height="20" viewBox="0 0 28 20">
@@ -152,7 +152,7 @@ export function Footer() {
                     </svg>
                   </div>
                   <div className="h-8 w-12 bg-white rounded flex items-center justify-center shadow-sm">
-                      <Image src="/applepay.svg" alt="Apple Pay" width={28} height={20} />
+                      <Image src="applepay.svg" alt="Apple Pay" width={28} height={20} />
                   </div>
                 </div>
               </div>
